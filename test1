@@ -1,0 +1,7 @@
+digraph TREE {
+    node1 [label="y = 3"];
+    node0 -> node1 [label="True"];
+    node0 [label="x4 = 2?"];
+    node2 [label="y = 4"];
+    node0 -> node2 [label="False"];
+}
